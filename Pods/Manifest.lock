@@ -1,0 +1,16 @@
+PODS:
+  - LXPlayerManager (1.0.0)
+
+DEPENDENCIES:
+  - LXPlayerManager (from `./`)
+
+EXTERNAL SOURCES:
+  LXPlayerManager:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  LXPlayerManager: 2c230e9e00247e219b2d7b526ba1eda6e2872c19
+
+PODFILE CHECKSUM: a0b75d0b196334dd753cc82062c460a3603270f0
+
+COCOAPODS: 1.9.1

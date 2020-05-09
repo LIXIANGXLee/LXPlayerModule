@@ -1,0 +1,6 @@
+framework module Pods_LXPlayerModule {
+  umbrella header "Pods-LXPlayerModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

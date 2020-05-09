@@ -1,0 +1,22 @@
+{
+  "name": "LXPlayerManager",
+  "version": "1.0.0",
+  "summary": "LXPlayerManager.",
+  "description": "播放器",
+  "homepage": "https://github.com/LIXIANGXLee/LXPlayerModule",
+  "license": "MIT",
+  "authors": {
+    "lixiang": "lixiang@gokuaidian.com"
+  },
+  "source": {
+    "git": "https://github.com/LIXIANGXLee/LXPlayerModule.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "LXPlayerManager/*.{h,m}",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

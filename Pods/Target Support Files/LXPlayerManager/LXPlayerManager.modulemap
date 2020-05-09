@@ -1,0 +1,6 @@
+framework module LXPlayerManager {
+  umbrella header "LXPlayerManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

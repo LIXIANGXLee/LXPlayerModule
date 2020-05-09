@@ -3,32 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		045CD587246688C800254881 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 045CD586246688C800254881 /* AppDelegate.m */; };
-		045CD58A246688C800254881 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 045CD589246688C800254881 /* SceneDelegate.m */; };
-		045CD58D246688C800254881 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045CD58C246688C800254881 /* ViewController.m */; };
-		045CD590246688C800254881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045CD58E246688C800254881 /* Main.storyboard */; };
 		045CD592246688CC00254881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045CD591246688CC00254881 /* Assets.xcassets */; };
 		045CD595246688CC00254881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045CD593246688CC00254881 /* LaunchScreen.storyboard */; };
 		045CD598246688CC00254881 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045CD597246688CC00254881 /* main.m */; };
+		045CD5A02466895E00254881 /* LXPlayerManager.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 045CD59F2466895E00254881 /* LXPlayerManager.podspec */; };
+		045CD5B924669FAA00254881 /* LXPlayVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045CD5B624669FAA00254881 /* LXPlayVideoViewController.m */; };
+		045CD5BA24669FAA00254881 /* LXPlayVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045CD5B824669FAA00254881 /* LXPlayVideoViewController.xib */; };
+		D920BE13C1352F6A1CF5778F /* Pods_LXPlayerModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 739494F71D0DFAEECDE3CA2C /* Pods_LXPlayerModule.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		045CD582246688C800254881 /* LXPlayerModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXPlayerModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045CD585246688C800254881 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		045CD586246688C800254881 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		045CD588246688C800254881 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		045CD589246688C800254881 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		045CD58B246688C800254881 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		045CD58C246688C800254881 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		045CD58F246688C800254881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		045CD591246688CC00254881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		045CD594246688CC00254881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		045CD596246688CC00254881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		045CD597246688CC00254881 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		045CD59F2466895E00254881 /* LXPlayerManager.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LXPlayerManager.podspec; sourceTree = "<group>"; };
+		045CD5B624669FAA00254881 /* LXPlayVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXPlayVideoViewController.m; sourceTree = "<group>"; };
+		045CD5B724669FAA00254881 /* LXPlayVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXPlayVideoViewController.h; sourceTree = "<group>"; };
+		045CD5B824669FAA00254881 /* LXPlayVideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXPlayVideoViewController.xib; sourceTree = "<group>"; };
+		739494F71D0DFAEECDE3CA2C /* Pods_LXPlayerModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXPlayerModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5AFF9C1C825176AE11193DC /* Pods-LXPlayerModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXPlayerModule.debug.xcconfig"; path = "Target Support Files/Pods-LXPlayerModule/Pods-LXPlayerModule.debug.xcconfig"; sourceTree = "<group>"; };
+		DB1A373509596E2BC1274105 /* Pods-LXPlayerModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXPlayerModule.release.xcconfig"; path = "Target Support Files/Pods-LXPlayerModule/Pods-LXPlayerModule.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D920BE13C1352F6A1CF5778F /* Pods_LXPlayerModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +49,11 @@
 		045CD579246688C800254881 = {
 			isa = PBXGroup;
 			children = (
+				045CD59F2466895E00254881 /* LXPlayerManager.podspec */,
 				045CD584246688C800254881 /* LXPlayerModule */,
 				045CD583246688C800254881 /* Products */,
+				14B9A7CF30CF8A7E0FAC52EA /* Pods */,
+				259706B86A9ED0E62950AEEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +68,34 @@
 		045CD584246688C800254881 /* LXPlayerModule */ = {
 			isa = PBXGroup;
 			children = (
+				045CD5B724669FAA00254881 /* LXPlayVideoViewController.h */,
+				045CD5B624669FAA00254881 /* LXPlayVideoViewController.m */,
+				045CD5B824669FAA00254881 /* LXPlayVideoViewController.xib */,
 				045CD585246688C800254881 /* AppDelegate.h */,
 				045CD586246688C800254881 /* AppDelegate.m */,
-				045CD588246688C800254881 /* SceneDelegate.h */,
-				045CD589246688C800254881 /* SceneDelegate.m */,
-				045CD58B246688C800254881 /* ViewController.h */,
-				045CD58C246688C800254881 /* ViewController.m */,
-				045CD58E246688C800254881 /* Main.storyboard */,
 				045CD591246688CC00254881 /* Assets.xcassets */,
 				045CD593246688CC00254881 /* LaunchScreen.storyboard */,
 				045CD596246688CC00254881 /* Info.plist */,
 				045CD597246688CC00254881 /* main.m */,
 			);
 			path = LXPlayerModule;
+			sourceTree = "<group>";
+		};
+		14B9A7CF30CF8A7E0FAC52EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5AFF9C1C825176AE11193DC /* Pods-LXPlayerModule.debug.xcconfig */,
+				DB1A373509596E2BC1274105 /* Pods-LXPlayerModule.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		259706B86A9ED0E62950AEEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				739494F71D0DFAEECDE3CA2C /* Pods_LXPlayerModule.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +105,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 045CD59B246688CC00254881 /* Build configuration list for PBXNativeTarget "LXPlayerModule" */;
 			buildPhases = (
+				FD30E93CA4F497AD9E634E91 /* [CP] Check Pods Manifest.lock */,
 				045CD57E246688C800254881 /* Sources */,
 				045CD57F246688C800254881 /* Frameworks */,
 				045CD580246688C800254881 /* Resources */,
+				6F7792A4350D362957D44628 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,37 +157,71 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045CD5BA24669FAA00254881 /* LXPlayVideoViewController.xib in Resources */,
 				045CD595246688CC00254881 /* LaunchScreen.storyboard in Resources */,
 				045CD592246688CC00254881 /* Assets.xcassets in Resources */,
-				045CD590246688C800254881 /* Main.storyboard in Resources */,
+				045CD5A02466895E00254881 /* LXPlayerManager.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F7792A4350D362957D44628 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LXPlayerModule/Pods-LXPlayerModule-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LXPlayerModule/Pods-LXPlayerModule-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LXPlayerModule/Pods-LXPlayerModule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD30E93CA4F497AD9E634E91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LXPlayerModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		045CD57E246688C800254881 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				045CD58D246688C800254881 /* ViewController.m in Sources */,
+				045CD5B924669FAA00254881 /* LXPlayVideoViewController.m in Sources */,
 				045CD587246688C800254881 /* AppDelegate.m in Sources */,
 				045CD598246688CC00254881 /* main.m in Sources */,
-				045CD58A246688C800254881 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		045CD58E246688C800254881 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				045CD58F246688C800254881 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		045CD593246688CC00254881 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,11 +345,13 @@
 		};
 		045CD59C246688CC00254881 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5AFF9C1C825176AE11193DC /* Pods-LXPlayerModule.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4HP843PHPG;
 				INFOPLIST_FILE = LXPlayerModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +364,13 @@
 		};
 		045CD59D246688CC00254881 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB1A373509596E2BC1274105 /* Pods-LXPlayerModule.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4HP843PHPG;
 				INFOPLIST_FILE = LXPlayerModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
