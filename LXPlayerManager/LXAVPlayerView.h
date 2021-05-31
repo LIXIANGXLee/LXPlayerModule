@@ -10,7 +10,6 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-
 typedef NS_ENUM(NSInteger, LXAVPlayerViewState) {
     LXAVPlayerViewStateUnknown   = 0,///未知(比如都没有开始播放音乐)
     LXAVPlayerViewStateLoading   = 1,///正在加载()
@@ -28,13 +27,13 @@ typedef void(^CallBackState)(LXAVPlayerViewState state);
 @interface LXAVPlayerView : UIView
 
 /** 是否静音 */
-@property (nonatomic, assign)BOOL muted;
+@property (nonatomic, assign) BOOL muted;
 /** 音量大小 */
-@property (nonatomic, assign)float volume;
+@property (nonatomic, assign) float volume;
 /** 当前播放速率 */
-@property (nonatomic, assign)float rate;
+@property (nonatomic, assign) float rate;
 /** 状态回调 */
-@property (nonatomic, copy)CallBackState callBackState;
+@property (nonatomic, copy) CallBackState callBackState;
 
 /** 播放状态 */
 @property (nonatomic, assign, readonly) LXAVPlayerViewState state;
@@ -73,18 +72,15 @@ typedef void(^CallBackState)(LXAVPlayerViewState state);
 - (void)stop;
 
 /**
- 快进/快退
- 
- @param timeDiffer 跳跃的时间段
+ * 快进/快退
+ * @param timeDiffer 跳跃的时间段
  */
-- (void)seekWithTimeDiffer:(NSTimeInterval)timeDiffer;
-
+- (void)seekWithTimeDiffer:(NSTimeInterval)timeDiffer completionHandler:(void(^)(BOOL isFinish))completionHandler;
 /**
- 播放指定的进度
- 
- @param progress 进度信息
+ * 播放指定的进度
+ * @param progress 进度信息
  */
-- (void)seekWithProgress:(float)progress;
+- (void)seekWithProgress:(float)progress completionHandler:(void(^)(BOOL isFinish))completionHandler;
 
 @end
 

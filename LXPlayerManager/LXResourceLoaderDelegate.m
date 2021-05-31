@@ -117,7 +117,7 @@
         
         long long responseOffset = requestOffset - self.downLoader.offset;
         long long responseLength = MIN(self.downLoader.offset + self.downLoader.loadedSize - requestOffset, requestLength) ;
-        NSData *subData = [data subdataWithRange:NSMakeRange(responseOffset, responseLength)];
+        NSData *subData = [data subdataWithRange: NSMakeRange(responseOffset, responseLength)];
         [loadingRequest.dataRequest respondWithData:subData];
            
         // 3. 完成请求(必须把所有的关于这个请求的区间数据, 都返回完之后, 才能完成这个请求)

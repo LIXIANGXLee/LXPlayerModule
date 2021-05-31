@@ -121,7 +121,7 @@
 }
 
 ///指定进度播放 progress 进度
-- (void)seekWithProgress:(float)progress {
+- (void)seekWithProgress:(float)progress completionHandler:(nonnull void (^)(BOOL))completionHandler{
     if (progress < 0 || progress > 1) {
         return;
     }
@@ -132,22 +132,16 @@
     NSTimeInterval playTimeSec = totalSec * progress;
     CMTime currentTime = CMTimeMake(playTimeSec, 1);
     
-    [self.player seekToTime:currentTime completionHandler:^(BOOL finished) {
-        if (finished) {
-            //确定加载这个时间点的音视频资源
-        }else {
-            //取消加载这个时间点的音视频资源
-        }
-    }];
+    [self.player seekToTime:currentTime completionHandler:completionHandler];
 }
 
 ///指定时间差播放 timeDiffer 时间差 快进
-- (void)seekWithTimeDiffer:(NSTimeInterval)timeDiffer {
+- (void)seekWithTimeDiffer:(NSTimeInterval)timeDiffer completionHandler:(nonnull void (^)(BOOL))completionHandler{
     NSTimeInterval totalTimeSec = [self totalTime];
     NSTimeInterval playTimeSec = [self currentTime];
     playTimeSec += timeDiffer;
     
-    [self seekWithProgress:playTimeSec / totalTimeSec];
+    [self seekWithProgress:playTimeSec / totalTimeSec completionHandler:completionHandler];
     
 }
 
